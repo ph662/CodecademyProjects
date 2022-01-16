@@ -1,6 +1,6 @@
 'use strict'
 
-const name = 'Nala';
+const name = 'Boo';
 
 const getRandEvent = () => {
     const random = Math.floor(Math.random() * 3);
