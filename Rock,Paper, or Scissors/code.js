@@ -6,13 +6,13 @@ const getUserChoice = (userInput) => {
         console.log('ERROR')
         return 'error'
     }
-}
+} //Meu primeiro commit
 
 const getComputerChoice = () => {
     let choices = ['rock', 'paper', 'scissors']
     let index = Math.floor(Math.random() * 3);
     return getUserChoice(choices[index]);
-}
+} //Meu primeiro commit
 
 const determineWinner = (userChoice, computerChoice) => {
     if (userChoice === 'bomb') {
@@ -27,7 +27,7 @@ const determineWinner = (userChoice, computerChoice) => {
             return 'Computer won';
         } else {
             return 'User won';
-        }
+        } //Meu primeiro commit
 
     } else if (userChoice === 'paper') {
 
@@ -35,7 +35,7 @@ const determineWinner = (userChoice, computerChoice) => {
             return 'Computer won';
         } else {
             return 'User won';
-        }
+        } //Meu primeiro commit
 
     } else if (userChoice === 'scissors') {
 
